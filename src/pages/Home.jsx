@@ -138,10 +138,11 @@ function Home() {
           <div className="flex flex-row items-center justify-center space-x-12">
             <div className="space-x-4 flex justify-center items-center align-top flex-row group">
               <div className="w-[200px] h-[110px] text-right text-[#303338] flex justify-end text-[49.43px] font-semibold font-[Public Sans] leading-[58.33px] tracking-wide">
-                Take The Call
+                Take 
+                <br />  The Call
               </div>
 
-              <div className="flex flex-col items-center space-y-6 group overflow-visible">
+              <div className="flex flex-col items-center space-y-6">
                 <svg
                   className="transition ease-in-out duration-700 group-hover:-rotate-12"
                   xmlns="http://www.w3.org/2000/svg"
@@ -195,15 +196,15 @@ function Home() {
               </div>
             </div>
 
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="3"
-              height="129"
-              viewBox="0 0 3 129"
-              fill="none"
-            >
-              <path d="M1.5 0V129" stroke="black" strokeWidth="2" />
-            </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="3"
+                height="129"
+                viewBox="0 0 3 129"
+                fill="none"
+              >
+                <path d="M1.5 0V129" stroke="black" strokeWidth="2" />
+              </svg>
 
             <div className="flex flex-row items-center justify-center space-x-4">
               <div className="flex flex-col items-center justify-center space-y-4">
