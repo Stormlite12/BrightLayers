@@ -6,6 +6,7 @@ import { AnimatedLogo } from "../functions/AnimatedLogo.jsx";
 import rectangle from "../assets/rectangle.png";
 import InfiniteScrollCarousel from "../components/Card/InfiniteScrollCarousel.jsx";
 import FounderBio from "../components/FounderBio.jsx";
+import Footer from "../components/Footer.jsx";
 
 function Home() {
   return (
@@ -90,16 +91,16 @@ function Home() {
           approach has not only made us experts in our field but has allowed us
           to build genuine partnerships.
         </div>
-        <div className="flex justify-end">
+        <div className="flex justify-end " id="service">
           <a
             href="#examples"
             className="w-[151px] h-[156px] text-[#535353] text-xl font-semibold font-title underline leading-relaxed tracking-tight mb-4"
           >
-            check services
+            check services  
           </a>
         </div>
       </div>
-      <div className="w-[550px] h-[137px] text-[#303338] text-[45px] font-semibold font-pSans leading-4     tracking-tight mt-10 ml-[146px]">
+      <div className="w-[550px] h-[137px] text-[#303338] text-[45px] font-semibold font-pSans leading-4 tracking-tight mt-10 ml-[146px]" >
         Service We Provide For Your Brand
         <span className="text-[#303338] text-[66px] font-medium font-pSans leading-[77.88px] tracking-wide">
           {" "}
@@ -275,7 +276,8 @@ text-[#303338] text-[49.43px] font-semibold font-['Public Sans'] leading-[56.35p
     
 
       <FounderBio/>
-    
+
+      <Footer/>
     
     
     </div>

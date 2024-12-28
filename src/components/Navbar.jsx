@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 function Navbar() {
   return (
@@ -35,7 +35,7 @@ function Navbar() {
               About
             </a>
             
-            <a href="#service" className="text-lg font-medium font-title text-[#787878]">
+            <a href="#service" className="text-lg font-medium font-title text-[#787878] scroll-smooth">
               Service
             </a>
             
