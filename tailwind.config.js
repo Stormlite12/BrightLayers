@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      transitionDuration: {
+        '2000': '2000ms',
+      },
       fontFamily: {
         title: ["Lato"],
         pSans: ["Public Sans"]
