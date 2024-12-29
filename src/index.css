@@ -4,6 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+span{
+    font-size: clamp(1rem, 0.211rem + 4.211vw, 4rem);
+}
+
+
 html {
     scroll-behavior: smooth;
   }

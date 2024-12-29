@@ -9,7 +9,7 @@ function LetsTalk() {
         <Navbar/>
 
         {/* The Title in the middle  */}
-        <div className="w-full mt-80 flex justify-center items-center">
+        <div className=" w-full mt-80 flex justify-center items-center">
             <div className="self-center w-[1100px] h-[10.125rem] mb-32 text-[#313338] text-center font-[Public Sans] text-[3.4375rem] font-medium leading-[118%] tracking-[0.03438rem]">A call is worth 
                       <span className="text-[#F97316]"> 120 seconds </span>
                       of the fastest most definite call to action you can take ツ

@@ -13,7 +13,7 @@ function Home() {
     <div className="w-auto h-auto bg-[#ecf0f1] overflow-hidden  z-[-1]">
       <div className="w-auto flex items-center justify-center h-[500px] BrightLayers">
         <div className="w-[1215px] text-center">
-          <span className="text-[#303338] text-[55px] font-medium, font-pSans leading-[64.90px] tracking-wide">
+          <span className="text-[#303338] text-[55px] font-medium, font-pSans leading-[64.90px] tracking-wide ">
             We are Bright Layers, a dynamic social media agency since 2019,
             dedicated to elevating brands through creative content and strategic
             digital marketing
