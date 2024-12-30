@@ -7,10 +7,15 @@ import rectangle from "../assets/rectangle.png";
 import InfiniteScrollCarousel from "../components/Card/InfiniteScrollCarousel.jsx";
 import FounderBio from "../components/FounderBio.jsx";
 import Footer from "../components/Footer.jsx";
+import Navbar from "../components/Navbar.jsx";
 
 function Home() {
   return (
+
+
     <div className="w-auto h-auto bg-[#ecf0f1] overflow-hidden  z-[-1]">
+      
+    <Navbar />
       <div className="w-auto flex items-center justify-center h-[500px] BrightLayers">
         <div className="w-[1215px] text-center">
           <span className="text-[#303338] text-[55px] font-medium, font-pSans leading-[64.90px] tracking-wide ">
