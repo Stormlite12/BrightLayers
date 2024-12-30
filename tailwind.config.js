@@ -11,7 +11,9 @@ export default {
       },
       fontFamily: {
         title: ["Lato"],
-        pSans: ["Public Sans"]
+        pSans: ["Public Sans"],
+        inter: ["Inter"],
+        archivo: ["Archivo"]
       },
       boxShadow: {
         'top-only': '0px -4px 8.1px 0px rgba(0, 0, 0, 0.25)',
@@ -27,5 +29,17 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        ".no-scrollbar": {
+          "-ms-overflow-style": "none",
+          "scrollbar-width": "none",
+        },
+        ".no-scrollbar::-webkit-scrollbar": {
+          display: "none",
+        },
+      });
+    },
+  ],
 }

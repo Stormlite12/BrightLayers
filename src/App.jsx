@@ -1,16 +1,19 @@
+import React from "react"
+import Navbar from "./components/Navbar.jsx"
 import Home from './pages/Home.jsx'
-import LetsTalk from "./pages/LetsTalk"
-import {Route,Routes} from "react-router-dom"
+import LetsTalk from "./pages/LetsTalk.jsx"
+import { Route } from "react-router-dom"
+import { Routes } from "react-router-dom"
 
 function App() {
   
 
   return (
     <div className="bg-[#ecf0f1]">
-       <Routes>
-        <Route path="/BrightLayers" element={<Home />} />
-        <Route path="/BrightLayers/LetsTalk" element={<LetsTalk />} />
-       </Routes>
+      <Routes>
+        <Route path="/" element = {<Home />} />
+        <Route path="/LetsTalk" element = {<LetsTalk />} />
+      </Routes>
       
     </div>
   )

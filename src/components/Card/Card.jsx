@@ -1,56 +1,20 @@
-// import PropTypes from "prop-types";
-
-// const Card = (props) => {
-//   return (
-//     <div 
-//     className="card">
-//       <div className="w-[456px] h-[627px] bg-[#1a3f60] rounded-3xl">
-//         <div className="w-[345px] h-[348px] text-white text-[26px] font-light font-['Public Sans'] leading-[33.02px] tracking-tight">
-//         {props.content}
-//         </div>
-//         <div className="w-[345px] h-[81px]">
-//           <span className="text-white text-2xl font-semibold font-['Public Sans'] leading-[30.48px] tracking-tight">
-//            {props.name}
-//             <br />
-//           </span>
-//           <span className="text-white text-[22px] font-light font-['Public Sans'] leading-7 tracking-tight">
-//             {props.title}
-//             <br />
-//           </span>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// Card.propTypes = {
-//   content: PropTypes.string.isRequired,
-//   name: PropTypes.string.isRequired,
-//   title: PropTypes.string.isRequired,
-// };
-
-
-
-// export default Card;
-
-
-import  { forwardRef } from "react";
+import { forwardRef } from "react";
 import PropTypes from "prop-types";
 
 // Use forwardRef to forward the ref to the div element inside Card
 const Card = forwardRef((props, ref) => {
   return (
-    <div ref={ref} className="card">
-      <div className="w-[456px] h-[627px] bg-[#1a3f60] rounded-3xl">
-        <div className="w-[345px] h-[348px] text-white text-[26px] font-light font-['Public Sans'] leading-[33.02px] tracking-tight">
+    <div ref={ref} className="overflow-x-hidden">
+      <div className="max-w-full w-[23.26rem] h-[575px] bg-[#1a3f60] rounded-3xl overflow-hidden mx-auto">
+        <div className="w-[19.5625rem] h-[21.75rem] text-white text-left text-[1.4rem] font-light font-pSans leading-[2rem] tracking-tight mx-auto mt-10">
           {props.content}
         </div>
-        <div className="w-[345px] h-[81px]">
-          <span className="text-white text-2xl font-semibold font-['Public Sans'] leading-[30.48px] tracking-tight">
+        <div className="w-[20.5625rem] h-[5.0625rem] mx-auto mt-20">
+          <span className="text-white text-xl font-semibold font-pSans leading-[30.48px] tracking-tight">
             {props.name}
             <br />
           </span>
-          <span className="text-white text-[22px] font-light font-['Public Sans'] leading-7 tracking-tight">
+          <span className="text-white text-[1rem] font-light font-pSans leading-7 tracking-tight">
             {props.title}
             <br />
           </span>

@@ -1,15 +1,16 @@
 import Navbar from "../components/Navbar"
-import rectangle from "../assets/rectangleLetsTalk.png"
+import rectangle2 from "../assets/rectangle2.png"
 import LetsTalkForm from "../components/LetsTalkForm"
 import Footer from "../components/Footer"
+import BlogSpot from '../components/BlogSpot.jsx'
 
 function LetsTalk() {
   return (
     <div>
-        <Navbar/>
-
+        {/* <Navbar/> */}
+        <Navbar />
         {/* The Title in the middle  */}
-        <div className=" w-full mt-80 flex justify-center items-center">
+        <div className="w-full mt-80 flex justify-center items-center">
             <div className="self-center w-[1100px] h-[10.125rem] mb-32 text-[#313338] text-center font-[Public Sans] text-[3.4375rem] font-medium leading-[118%] tracking-[0.03438rem]">A call is worth 
                       <span className="text-[#F97316]"> 120 seconds </span>
                       of the fastest most definite call to action you can take ツ
@@ -18,13 +19,13 @@ function LetsTalk() {
         
 
         {/* The form and image div */}
-          <div className="mx-auto flex flex-row justify-center gap-28">
-            <div><img className="h-[1012px] w-[695px]" src={rectangle} alt="" /></div>
+          <div className="mx-auto flex flex-row justify-center gap-28 w-[90%]">
+            <div><img className="h-[1012px] w-[695px]" src={rectangle2} alt="" /></div>
             <LetsTalkForm/>
           </div>
 
 
-
+        <BlogSpot />
 
 
 
@@ -56,7 +57,7 @@ function LetsTalk() {
                   </div>
         </div>
     </div>
-
+    
 
     <Footer/>
 
