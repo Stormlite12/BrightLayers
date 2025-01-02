@@ -51,8 +51,8 @@ const InfiniteScroll = () => {
       className="flex max-w-screen-xl mx-auto justify-start py-36 overflow-x-auto scroll-smooth no-scrollbar"
       ref={containerRef}
       style={{
-        width: "89%",
-        maxWidth: "3000px",
+        width: "75%",
+        maxWidth: "187.5rem",
         margin: "0 auto",
       }}
     >

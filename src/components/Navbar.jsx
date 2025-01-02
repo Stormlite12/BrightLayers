@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 function Navbar() {
   return (
-    <div className="navbar-area w-auto h-[166px] px-20 flex justify-between items-center">
+    <div className="navbar-area w-auto h-[10.375rem] px-20 flex justify-between items-center">
     
 
 
@@ -54,7 +54,7 @@ function Navbar() {
             </NavLink>
             
             <a href="/LetsTalk"
-                className="flex items-center justify-center w-[110px] h-[30px] text-white bg-[#2c3e50] rounded-[5px] text-lg font-medium font-title shadow-[0px_4px_8.1px_rgba(0,0,0,0.25)] border"
+                className="flex items-center justify-center w-[6.875rem] h-[1.875rem] text-white bg-[#2c3e50] rounded-[5px] text-lg font-medium font-title shadow-[0px_4px_8.1px_rgba(0,0,0,0.25)] border"
             >
               let’s talk
             </a>
