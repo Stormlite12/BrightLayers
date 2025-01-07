@@ -1,5 +1,5 @@
 
-import home1 from '../assets/home1.jpg'
+import home1 from '../assets/home1.png'
 import ContactForm from './ContactForm.jsx'
 import image from '../assets/image.png'
 import DropDown from '../functions/DropDown.jsx'
@@ -38,48 +38,52 @@ function Home() {
   return (
     <div className='w-auto h-auto bg-[#ecf0f1] overflow-hidden z-[-1] mt-[10%]'>
       <Navbar />
-            <div className='w-auto flex items-center justify-center md:h-[31.25rem] min-[320px]:h-[27.5rem] BrightLayers'>
-              <div className='md:w-[75.9375rem] text-center min-[320px]:w-[23.375rem] min-[320px]:h-[8.375rem]'>
-                  <span className='text-[#303338] md:text-[3.4375rem] min-[320px]:text-[1.125rem] font-medium min-[320px]:font-normal, font-pSans md:leading-[4.0563rem] min-[320px]:leading-[1.845rem] md:tracking-wide min-[320px]:tracking-tight'>
+           <div className='max-w-[1280px] mx-auto'>
+           <div className='w-auto flex items-center justify-center BrightLayers'>
+              <div className='md:w-[63.28125rem] md:h-[22.125rem] text-center w-[23.375rem] h-[8.375rem] mb-[]'>
+                  <span className='text-[#303338] md:text-[3.4375rem] text-[1.125rem] font-semibold md:font-medium font-pSans md:leading-[4.0563rem] leading-[1.845rem] md:tracking-[0.03438rem] tracking-[0.01125rem]'>
                       We are Bright Layers, a dynamic social media agency since 2019,
                       dedicated to elevating brands through creative content and strategic
                       digital marketing
                     </span>
-                    <span className="text-[#303338] md:text-[4.125rem] md:font-medium font-pSans md:leading-[4.8675rem] md:tracking-wide min-[320px]:text-[1.125rem] min-[320px]:font-normal min-[320px]:leading-[1.845rem] min-[320px]:tracking-tight">
+                    <span className="text-[#303338] md:text-[3.4375rem] text-[1.125rem] font-semibold md:font-medium font-pSans md:leading-[4.0563rem] leading-[1.845rem] md:tracking-[0.03438rem] tracking-[0.01125rem]">
                         {" "}
                       </span>
-                    <span className="text-[#303338] md:text-[3.0625rem] md:font-medium font-pSans md:leading-[3.6138rem] md:tracking-wide min-[320px]:text-[1.125rem] min-[320px]:font-bold min-[320px]:leading-[1.845rem] min-[320px]:tracking-tight">
+                    <span className="text-[#303338] md:text-[3.4375rem] text-[1.125rem] font-semibold md:font-medium font-pSans md:leading-[4.0563rem] leading-[1.845rem] md:tracking-[0.03438rem] tracking-[0.01125rem]">
                           ツ
                       </span>
                </div>
             </div>
-            <div className="w-full h-[13.875rem] flex justify-end md:mt-36" id='about'>
+           </div>
+
+            <div className='w-full   flex justify-end '>
+            <div className="lg:w-[79rem] md:h-[13.875rem] h-[6.9375rem] md:mt-[10.37rem] md:mb-[7.81rem]  " id='about'>
                 <img
                     src={home1}
-                    className="md:w-[75rem] md:h-[13.875rem] min-[320px]:w-[24.625rem] min-[320px]:h-[6.9375rem] object-cover"
+                    className="w-full h-auto cover"
                     alt="assets"
                   />
               </div>
+            </div>
+        
 
 
-            <div className="md:w-auto md:h-[20.25rem] flex flex-col md:mt-36 md:px-4 mx-auto w-80">
-                  <div className='text-center'>
+            <div className="md:w-auto md:h-[20.25rem] flex flex-col  mx-auto w-80">
+                  <div className='text-left'>
                     <div
                       className="md:w-[53.938rem] md:h-[1.188rem] text-[#da5428] 
-                      md:text-[1.5625rem] text-[1rem] md:font-semibold font-normal font-pSans capitalize md:leading-[1.8438rem] leading-[1.18rem] md:tracking-tight mx-auto w-[14.0625rem] h-[1.1875rem]">
+                      md:text-[1.5625rem] text-[1rem] md:font-semibold font-normal font-pSans capitalize md:leading-[1.8438rem] leading-[1.18rem] md:tracking-[0.01563rem] mx-auto w-[14.0625rem] h-[1.1875rem]">
                       What Do We Do?
                       </div>
                       </div>
-
                       <div className="md:w-[53.9375rem] md:h-[22.75rem]
-                      text-[#535353] md:text-[1.5313rem] 
-                        md:font-medium font-title md:leading-9 
-                        md:tracking-tight md:text-left md:mt-4
-                        md:mx-auto w-[21.6875rem] 
+                      text-[#535353] md:text-[1.5625rem] 
+                        md:font-medium font-title md:leading-[2.03494rem] 
+                        md:tracking-[0.01563rem] md:text-left md:mt-4
+                        mx-auto w-[21.6875rem] 
                         h-[13.8125rem] text-center
-                        items-center mx-auto
-                        text-[0.8125rem] font-normal
-                        leading-[1.05819rem] pt-4">
+                        items-center text-[0.8125rem] font-normal
+                        leading-[1.05819rem]">
                         In the last 5 years, the country has seen trendsetting marketing
                         campaigns — but what&apos;s missing is &quot;the beyonds&quot; of a
                         campaign. Does it end after a post, a hoarding, an ad? So we just want
@@ -90,7 +94,8 @@ function Home() {
                         to the front too. Beyond just campaigns. Just like our name, we are
                         here to brighten up your social media presence with a layered approach
                         that works exclusively for you.
-             </div>
+                      </div>
+
                 <div className='flex justify-end'>
                     <a href='#examples' className="w-[9.4375rem] h-[1.8125rem] text-[#535353] text-xl font-semibold font-title underline leading-relaxed tracking-tight mb-4 min-[320px]:hidden">
                         check examples
@@ -138,11 +143,6 @@ function Home() {
                                       <img src={rectangle} alt="image" className='md:mr-[5rem]' />
                                     </div>
                                 </div>
-
-                         
-
-
-
 
 
 
